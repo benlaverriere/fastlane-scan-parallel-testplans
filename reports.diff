@@ -1,0 +1,50 @@
+113c113
+<           <h2 id="test-count"><span class="number">2</span> tests</h2>
+---
+>           <h2 id="test-count"><span class="number">0</span> tests</h2>
+123,156d122
+<         
+<         <section class="test-suite passing" id="testappTests.testappTests">
+<           <section class="heading" onclick="toggleTests(this);">
+<             <h3 class="title">testappTests.testappTests</h3>
+<           </section>
+<           <section class="tests">
+<             <table>
+<             
+<               
+<               <tr class="test passing "  onclick="toggleDetails('testExample');">
+<                 <td>
+<                   
+<                     <h3 class="time">0.001s</h3>
+<                   
+<                 </td>
+<                 <td><h3 class="title">testExample</h3></td>
+<               </tr>
+<               
+<             
+<               
+<               <tr class="test passing odd"  onclick="toggleDetails('testPerformanceExample');">
+<                 <td>
+<                   
+<                     <h3 class="time">0.270s</h3>
+<                   
+<                 </td>
+<                 <td><h3 class="title">testPerformanceExample</h3></td>
+<               </tr>
+<               
+<             
+<             </table>
+<           </section>
+<         </section>
+<       
+162,167c128
+< <testsuites name='testappTests.xctest' tests='2' failures='0'>
+<   <testsuite name='testappTests.testappTests' tests='2' failures='0'>
+<     <testcase classname='testappTests.testappTests' name='testExample' time='0.001'/>
+<     <testcase classname='testappTests.testappTests' name='testPerformanceExample' time='0.270'/>
+<   </testsuite>
+< </testsuites>
+\ No newline at end of file
+---
+> <testsuites tests='0' failures='0'/>
+\ No newline at end of file
