@@ -45,7 +45,8 @@
 		B5110A0D28F60A3E00BD4735 /* testappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5110A1128F60A3E00BD4735 /* testappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testappUITests.swift; sourceTree = "<group>"; };
 		B5110A1328F60A3E00BD4735 /* testappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testappUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B5110A2028F60A8200BD4735 /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
+		B5110A2028F60A8200BD4735 /* SerialTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SerialTestPlan.xctestplan; sourceTree = "<group>"; };
+		B5110A2128F60D9F00BD4735 /* ParallelTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ParallelTestPlan.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +77,8 @@
 		B51109E928F60A3D00BD4735 = {
 			isa = PBXGroup;
 			children = (
-				B5110A2028F60A8200BD4735 /* TestPlan.xctestplan */,
+				B5110A2028F60A8200BD4735 /* SerialTestPlan.xctestplan */,
+				B5110A2128F60D9F00BD4735 /* ParallelTestPlan.xctestplan */,
 				B51109F428F60A3D00BD4735 /* testapp */,
 				B5110A0628F60A3E00BD4735 /* testappTests */,
 				B5110A1028F60A3E00BD4735 /* testappUITests */,

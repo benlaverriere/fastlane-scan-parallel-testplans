@@ -1,0 +1,2 @@
+output_types('junit,html')
+devices(['iPhone 13 Pro Max'])
