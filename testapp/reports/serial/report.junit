@@ -1,7 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='testappTests.xctest' tests='2' failures='0'>
-  <testsuite name='testappTests.testappTests' tests='2' failures='0'>
-    <testcase classname='testappTests.testappTests' name='testExample' time='0.001'/>
-    <testcase classname='testappTests.testappTests' name='testPerformanceExample' time='0.272'/>
-  </testsuite>
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0">
+    <testsuite name="testappTests" tests="2" failures="0" skipped="0" time="0.27180397510528564">
+        <properties>
+          <property name="Configuration" value="Configuration 1"/>
+        </properties>
+        <testcase classname="testappTests" name="testExample()" time="0.0007699728012084961">
+        </testcase>
+        <testcase classname="testappTests" name="testPerformanceExample()" time="0.27103400230407715">
+        </testcase>
+    </testsuite>
 </testsuites>
