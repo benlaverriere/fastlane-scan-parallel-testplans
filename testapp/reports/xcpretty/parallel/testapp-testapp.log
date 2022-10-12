@@ -1,0 +1,147 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme testapp -project ./testapp.xcodeproj -derivedDataPath /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv -destination "platform=iOS Simulator,id=1EF4BDDB-E12E-4C8E-86CB-2158581043F8" -testPlan ParallelTestPlan build test
+
+User defaults from command line:
+    IDEDerivedDataPathOverride = /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Prepare packages
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 5eaabdbe161477ebec10b9a051211dfe
+Build description path: /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/XCBuildData/5eaabdbe161477ebec10b9a051211dfe-desc.xcbuild
+
+note: Building targets in dependency order
+note: Removed stale file '/Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks'
+
+ProcessProductPackaging /Users/ben/fastlane-scan-parallel-testplans/testapp/testapp/testapp.entitlements /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testapp.build/testapp.app.xcent (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    
+    Entitlements:
+    
+    {
+}
+    
+    builtin-productPackagingUtility /Users/ben/fastlane-scan-parallel-testplans/testapp/testapp/testapp.entitlements -entitlements -format xml -o /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testapp.build/testapp.app.xcent
+
+ProcessProductPackagingDER /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testapp.build/testapp.app.xcent /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testapp.build/testapp.app.xcent.der (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    /usr/bin/derq query -f xml -i /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testapp.build/testapp.app.xcent -o /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testapp.build/testapp.app.xcent.der --raw
+
+CodeSign /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    
+    Signing Identity:     "-"
+    
+    /usr/bin/codesign --force --sign - --entitlements /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testapp.build/testapp.app.xcent --timestamp\=none --generate-entitlement-der /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app
+/Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app: replacing existing signature
+
+Validate /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    builtin-validationUtility /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app
+
+** BUILD SUCCEEDED **
+
+Prepare packages
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: cf7d1468f9ab062fe64e38a436a69d8b
+Build description path: /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/XCBuildData/cf7d1468f9ab062fe64e38a436a69d8b-desc.xcbuild
+
+note: Building targets in dependency order
+MkDir /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    /bin/mkdir -p /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+
+ProcessProductPackaging /Users/ben/fastlane-scan-parallel-testplans/testapp/testapp/testapp.entitlements /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testapp.build/testapp.app.xcent (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    
+    Entitlements:
+    
+    {
+}
+    
+    builtin-productPackagingUtility /Users/ben/fastlane-scan-parallel-testplans/testapp/testapp/testapp.entitlements -entitlements -format xml -o /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testapp.build/testapp.app.xcent
+
+ProcessProductPackagingDER /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testapp.build/testapp.app.xcent /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testapp.build/testapp.app.xcent.der (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    /usr/bin/derq query -f xml -i /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testapp.build/testapp.app.xcent -o /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testapp.build/testapp.app.xcent.der --raw
+
+Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/XCTestSupport.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+
+Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/XCUIAutomation.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUIAutomation.framework (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUIAutomation.framework /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+
+Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/XCUnit.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+
+Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/libXCTestSwiftSupport.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+
+Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/libXCTestBundleInject.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestBundleInject.dylib (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestBundleInject.dylib /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+
+Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/XCTest.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+
+Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/XCTestCore.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+
+Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/XCTAutomationSupport.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+
+Ld /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/PlugIns/testappTests.xctest/testappTests normal (in target 'testappTests' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-ios16.0-simulator -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.0.sdk -L/Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/EagerLinkingTBDs -L/Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F/Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/EagerLinkingTBDs -F/Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.0.sdk/Developer/Library/Frameworks -filelist /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testappTests.build/Objects-normal/arm64/testappTests.LinkFileList -Xlinker -rpath -Xlinker @loader_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -bundle_loader /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app//testapp -Xlinker -object_path_lto -Xlinker /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testappTests.build/Objects-normal/arm64/testappTests_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -fobjc-link-runtime -fprofile-instr-generate -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testappTests.build/Objects-normal/arm64/testappTests.swiftmodule -framework XCTest -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testappTests.build/Objects-normal/arm64/testappTests_dependency_info.dat -o /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/PlugIns/testappTests.xctest/testappTests
+
+CopySwiftLibs /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/PlugIns/testappTests.xctest (in target 'testappTests' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/PlugIns/testappTests.xctest/testappTests --scan-folder /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/PlugIns/testappTests.xctest/Frameworks --scan-folder /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/PlugIns/testappTests.xctest/PlugIns --scan-folder /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/PlugIns/testappTests.xctest/SystemExtensions --scan-folder /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/PlugIns/testappTests.xctest/Extensions --platform iphonesimulator --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/PlugIns/testappTests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testappTests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+
+ExtractAppIntentsMetadata (in target 'testappTests' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    /Applications/Xcode.app/Contents/Developer/usr/bin/appintentsmetadataprocessor --output /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/PlugIns/testappTests.xctest --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name testappTests --source-files /Users/ben/fastlane-scan-parallel-testplans/testapp/testappTests/testappTests.swift --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.0.sdk --target-triple arm64-apple-ios16.0-simulator --binary-file /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/PlugIns/testappTests.xctest/testappTests --dependency-file /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testappTests.build/Objects-normal/arm64/testappTests_dependency_info.dat --stringsdata-file /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testappTests.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata
+note: Metadata extraction skipped. No AppIntents.framework dependency found. (in target 'testappTests' from project 'testapp')
+
+CodeSign /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/PlugIns/testappTests.xctest (in target 'testappTests' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    
+    Signing Identity:     "-"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/PlugIns/testappTests.xctest
+
+CodeSign /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    
+    Signing Identity:     "-"
+    
+    /usr/bin/codesign --force --sign - --entitlements /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Intermediates.noindex/testapp.build/Debug-iphonesimulator/testapp.build/testapp.app.xcent --timestamp\=none --generate-entitlement-der /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app
+/Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app: replacing existing signature
+
+Validate /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app (in target 'testapp' from project 'testapp')
+    cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+    builtin-validationUtility /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app
+
+Testing started
+Test suite 'testappTests' started on 'Clone 1 of iPhone 13 Pro Max - testapp (80843)'
+Test case 'testappTests.testExample()' passed on 'Clone 1 of iPhone 13 Pro Max - testapp (80843)' (0.001 seconds)
+Test case 'testappTests.testPerformanceExample()' passed on 'Clone 1 of iPhone 13 Pro Max - testapp (80843)' (0.270 seconds)
+
+Test session results, code coverage, and logs:
+	/Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Logs/Test/Run-testapp-2022.10.12_14-30-15--0400.xcresult
+
+** TEST SUCCEEDED **
+

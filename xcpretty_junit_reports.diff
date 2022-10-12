@@ -1,0 +1,11 @@
+2,7c2
+< <testsuites name='testappTests.xctest' tests='2' failures='0'>
+<   <testsuite name='testappTests.testappTests' tests='2' failures='0'>
+<     <testcase classname='testappTests.testappTests' name='testExample' time='0.001'/>
+<     <testcase classname='testappTests.testappTests' name='testPerformanceExample' time='0.275'/>
+<   </testsuite>
+< </testsuites>
+\ No newline at end of file
+---
+> <testsuites tests='0' failures='0'/>
+\ No newline at end of file

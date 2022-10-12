@@ -1,0 +1,68 @@
+2c2
+<     /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme testapp -project ./testapp.xcodeproj -derivedDataPath /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv -destination "platform=iOS Simulator,id=1EF4BDDB-E12E-4C8E-86CB-2158581043F8" -testPlan SerialTestPlan build test
+---
+>     /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme testapp -project ./testapp.xcodeproj -derivedDataPath /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv -destination "platform=iOS Simulator,id=1EF4BDDB-E12E-4C8E-86CB-2158581043F8" -testPlan ParallelTestPlan build test
+74c74
+< Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/libXCTestSwiftSupport.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib (in target 'testapp' from project 'testapp')
+---
+> Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/XCUnit.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework (in target 'testapp' from project 'testapp')
+76c76
+<     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+---
+>     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+82,86c82
+< Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/XCUnit.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework (in target 'testapp' from project 'testapp')
+<     cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+<     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+< 
+< Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/XCTestSupport.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework (in target 'testapp' from project 'testapp')
+---
+> Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/libXCTestSwiftSupport.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib (in target 'testapp' from project 'testapp')
+88c84
+<     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+---
+>     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+90c86
+< Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/XCTest.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework (in target 'testapp' from project 'testapp')
+---
+> Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/XCUIAutomation.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUIAutomation.framework (in target 'testapp' from project 'testapp')
+92c88
+<     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+---
+>     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUIAutomation.framework /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+97a94,97
+> Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/XCTest.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework (in target 'testapp' from project 'testapp')
+>     cd /Users/ben/fastlane-scan-parallel-testplans/testapp
+>     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+> 
+102c102
+< Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/XCUIAutomation.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUIAutomation.framework (in target 'testapp' from project 'testapp')
+---
+> Copy /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks/XCTestSupport.framework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework (in target 'testapp' from project 'testapp')
+104c104
+<     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUIAutomation.framework /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+---
+>     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework /Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Build/Products/Debug-iphonesimulator/testapp.app/Frameworks
+139,152c139,141
+< Test Suite 'All tests' started at 2022-10-12 14:31:38.532
+< Test Suite 'testappTests.xctest' started at 2022-10-12 14:31:38.532
+< Test Suite 'testappTests' started at 2022-10-12 14:31:38.532
+< Test Case '-[testappTests.testappTests testExample]' started.
+< Test Case '-[testappTests.testappTests testExample]' passed (0.001 seconds).
+< Test Case '-[testappTests.testappTests testPerformanceExample]' started.
+< /Users/ben/fastlane-scan-parallel-testplans/testapp/testappTests/testappTests.swift:30: Test Case '-[testappTests.testappTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 120.913%, values: [0.000064, 0.000010, 0.000008, 0.000007, 0.000008, 0.000008, 0.000009, 0.000009, 0.000008, 0.000008], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , polarity: prefers smaller, maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+< Test Case '-[testappTests.testappTests testPerformanceExample]' passed (0.272 seconds).
+< Test Suite 'testappTests' passed at 2022-10-12 14:31:38.805.
+< 	 Executed 2 tests, with 0 failures (0 unexpected) in 0.273 (0.273) seconds
+< Test Suite 'testappTests.xctest' passed at 2022-10-12 14:31:38.806.
+< 	 Executed 2 tests, with 0 failures (0 unexpected) in 0.273 (0.273) seconds
+< Test Suite 'All tests' passed at 2022-10-12 14:31:38.806.
+< 	 Executed 2 tests, with 0 failures (0 unexpected) in 0.273 (0.275) seconds
+---
+> Test suite 'testappTests' started on 'Clone 1 of iPhone 13 Pro Max - testapp (81414)'
+> Test case 'testappTests.testExample()' passed on 'Clone 1 of iPhone 13 Pro Max - testapp (81414)' (0.001 seconds)
+> Test case 'testappTests.testPerformanceExample()' passed on 'Clone 1 of iPhone 13 Pro Max - testapp (81414)' (0.273 seconds)
+155c144
+< 	/Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Logs/Test/Run-testapp-2022.10.12_14-31-09--0400.xcresult
+---
+> 	/Users/ben/Library/Developer/Xcode/DerivedData/testapp-fazhzkomqahnxyepsakatmpbwzvv/Logs/Test/Run-testapp-2022.10.12_14-31-46--0400.xcresult

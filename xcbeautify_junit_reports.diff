@@ -1,0 +1,12 @@
+3c3
+<     <testsuite name="testappTests" tests="2" failures="0" skipped="0" time="0.27268898487091064">
+---
+>     <testsuite name="testappTests" tests="2" failures="0" skipped="0" time="0.27432501316070557">
+7c7
+<         <testcase classname="testappTests" name="testExample()" time="0.0006530284881591797">
+---
+>         <testcase classname="testappTests" name="testExample()" time="0.0009180307388305664">
+9c9
+<         <testcase classname="testappTests" name="testPerformanceExample()" time="0.27203595638275146">
+---
+>         <testcase classname="testappTests" name="testPerformanceExample()" time="0.273406982421875">

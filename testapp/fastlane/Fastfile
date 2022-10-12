@@ -3,18 +3,16 @@ default_platform(:ios)
 platform :ios do
   desc 'Run tests in series and in parallel'
   lane :tests do
-    serial_dir = 'reports/serial'
-    parallel_dir = 'reports/parallel'
-
-    run_tests(
-      testplan: 'SerialTestPlan',
-      output_directory: serial_dir,
-      buildlog_path: serial_dir
-    )
-    run_tests(
-      testplan: 'ParallelTestPlan',
-      output_directory: parallel_dir,
-      buildlog_path: parallel_dir
-    )
+    %w[xcpretty xcbeautify].each do |formatter|
+      %w[serial parallel].each do |topology|
+        dir = "reports/#{formatter}/#{topology}"
+        run_tests(
+          testplan: "#{topology.capitalize}TestPlan",
+          output_directory: dir,
+          buildlog_path: dir,
+          xcodebuild_formatter: formatter
+        )
+      end
+    end
   end
 end
