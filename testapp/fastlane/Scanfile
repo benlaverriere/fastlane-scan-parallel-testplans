@@ -1,2 +1,3 @@
-output_types('junit,html')
-devices(['iPhone 13 Pro Max'])
+output_types 'junit,html'
+devices ['iPhone 13 Pro Max']
+suppress_xcode_output true
